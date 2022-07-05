@@ -1,0 +1,175 @@
+body {
+    font-size: 20px;
+}
+
+p {
+    color: dodgerblue;
+}
+
+ul {
+    color: dodgerblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ol {
+    color: dodgerblue;
+    font-family: fantasy;
+}
+
+.destacados {
+    color: dodgerblue;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#luffy {
+    color: black;
+    margin: 10px;
+}
+
+#zoro {
+    color: darkgreen;
+    margin: 10px;
+}
+
+#nami {
+    color: orangered;
+    margin: 10px;
+}
+
+#usopp {
+    color: brown;
+    margin: 10px;
+}
+
+#sanji {
+    color: yellow;
+    margin: 10px;
+}
+
+#chopper {
+    color: purple;
+    margin: 10px;
+}
+
+#nicorobin {
+    color: red;
+    margin: 10px;
+}
+
+#franky {
+    color: turquoise;
+    margin: 10px;
+}
+
+#brook {
+    color: coral;
+    margin: 10px;
+}
+
+#jinbe {
+    color: blue;
+    margin: 10px;
+}
+
+#jpgluffy {
+    width: 300px;
+}
+
+#jpgzoro {
+    width: 300px;
+}
+
+#jpgnami {
+    width: 300px;
+}
+
+#jpgusopp {
+    width: 300px;
+}
+
+#jpgsanji {
+    width: 300px;
+}
+
+#jpgchopper {
+    width: 300px;
+}
+
+#jpgrobin {
+    width: 300px;
+}
+
+#jpgfranki {
+    width: 300px;
+}
+
+#jpgbrook {
+    width: 300px;
+}
+
+#jpgjinbe {
+    width: 300px;
+}
+
+.subtitulo {
+    font-family: fantasy;
+}
+
+.negrita {
+    font-family: fantasy;
+    font-size: larger;
+}
+
+.negrita2 {
+    font-family: fantasy;
+    font-size: larger;
+}
+
+.fondoynegrita {
+    font-family: fantasy;
+    font-size: larger;
+    background-color: rgb(168, 156, 156);
+    color: rgb(17, 17, 8);
+}
+
+.formulario {
+    font-size: xx-large;
+    font-family: monospace;
+    background-color: coral;
+}
+
+.aviso {
+    font-size: xx-large;
+    font-family: monospace;
+    background-color: coral;
+}
+
+.nombre {
+    font-size: larger;
+}
+
+.apellido {
+    font-size: larger;
+}
+
+.ciudad {
+    font-size: larger;
+}
+
+.correo {
+    font-size: larger;
+}
+
+.usuario {
+    font-size: larger;
+}
+
+.contraseña {
+    font-size: larger;
+}
+
+#enviar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}

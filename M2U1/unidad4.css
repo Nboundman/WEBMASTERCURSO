@@ -1,0 +1,244 @@
+body {
+    font-size: 20px;
+}
+
+p {
+    color: dodgerblue;
+}
+
+ul {
+    color: dodgerblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ol {
+    color: dodgerblue;
+    font-family: fantasy;
+}
+
+.destacados {
+    color: dodgerblue;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#luffy {
+    color: black;
+    margin: 10px;
+}
+
+#zoro {
+    color: darkgreen;
+    margin: 10px;
+}
+
+#nami {
+    color: orangered;
+    margin: 10px;
+}
+
+#usopp {
+    color: brown;
+    margin: 10px;
+}
+
+#sanji {
+    color: yellow;
+    margin: 10px;
+}
+
+#chopper {
+    color: purple;
+    margin: 10px;
+}
+
+#nicorobin {
+    color: red;
+    margin: 10px;
+}
+
+#franky {
+    color: turquoise;
+    margin: 10px;
+}
+
+#brook {
+    color: coral;
+    margin: 10px;
+}
+
+#jinbe {
+    color: blue;
+    margin: 10px;
+}
+
+#jpgluffy {
+    width: 300px;
+    /*box-shadow: -10px 10px 5px black;*/
+    box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+}
+
+#jpgzoro {
+    width: 300px;
+    box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+}
+
+#jpgnami {
+    width: 300px;
+    box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+}
+
+#jpgusopp {
+    width: 300px;
+    box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+}
+
+#jpgsanji {
+    width: 300px;
+    box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+}
+
+#jpgchopper {
+    width: 300px;
+    box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+}
+
+#jpgrobin {
+    width: 300px;
+    box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+}
+
+#jpgfranki {
+    width: 300px;
+    box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+}
+
+#jpgbrook {
+    width: 300px;
+    box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+}
+
+#jpgjinbe {
+    width: 300px;
+    box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 41px 12px rgba(0, 0, 0, 0.75);
+}
+
+.subtitulo {
+    font-family: fantasy;
+}
+
+.negrita {
+    font-family: fantasy;
+    font-size: larger;
+}
+
+.negrita2 {
+    font-family: fantasy;
+    font-size: larger;
+}
+
+.fondoynegrita {
+    font-family: fantasy;
+    font-size: larger;
+    /*background-color: rgb(168, 156, 156); */
+    color: rgb(17, 17, 8);
+    background: #0091e4;
+    background: repeating-radial-gradient(ellipse farthest-side at top left, #0091e4 0%, #98bfee 20%);
+    background: -webkit-repeating-radial-gradient(ellipse farthest-side at top left, #0091e4 0%, #98bfee 20%);
+    background: -moz-repeating-radial-gradient(ellipse farthest-side at top left, #0091e4 0%, #98bfee 20%);
+}
+
+.formulario {
+    font-size: xx-large;
+    font-family: monospace;
+    background-color: coral;
+}
+
+.aviso {
+    font-size: xx-large;
+    font-family: monospace;
+    background-color: coral;
+}
+
+.nombre {
+    font-size: larger;
+}
+
+.apellido {
+    font-size: larger;
+}
+
+.ciudad {
+    font-size: larger;
+}
+
+.correo {
+    font-size: larger;
+}
+
+.usuario {
+    font-size: larger;
+}
+
+.contraseña {
+    font-size: larger;
+}
+
+#enviar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+.columna {
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-gap: 38px;
+    -webkit-column-gap: 38px;
+    -moz-column-gap: 38px;
+    column-rule: 5px dotted #4687e8;
+    -webkit-column-rule: 5px dotted #4687e8;
+    -moz-column-rule: 5px dotted #4687e8;
+
+}
+
+.borderradius {
+    border-radius: 34px 34px 34px 34px;
+    -webkit-border-radius: 34px 34px 34px 34px;
+    -moz-border-radius: 34px 34px 34px 34px;
+}
+
+#tipografia {
+    font-family: 'The Nautigal', cursive;
+    font-size: 35px;
+}
+
+.tipografia1 {
+    font-family: 'The Nautigal', cursive;
+    font-size: 35px;
+}
+
+.tipografia2 {
+    font-family: 'The Nautigal', cursive;
+    font-size: 35px;
+}
