@@ -1,0 +1,221 @@
+/*font-family: 'Open Sans', sans-serif;*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    ;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/*header*/
+header {
+    background: #0b0361;
+    background: linear-gradient(292deg, #0b0361 0%, #7593ff 80%);
+    background: -webkit-linear-gradient(292deg, #0b0361 0%, #7593ff 80%);
+    background: -moz-linear-gradient(292deg, #0b0361 0%, #7593ff 80%);
+    padding: 16px-0;
+}
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+    margin-left: 10px;
+}
+
+.holder {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/*header*/
+
+/*navegacion*/
+nav {
+    background: #0b0361;
+    background: linear-gradient(292deg, #0b0361 0%, #7593ff 80%);
+    background: -webkit-linear-gradient(292deg, #0b0361 0%, #7593ff 80%);
+    background: -moz-linear-gradient(292deg, #0b0361 0%, #7593ff 80%);
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+nav ul li a.activo {
+    background-color: #0b0361;
+
+}
+
+/*navegacion*/
+
+/*main*/
+.hh {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h2 {
+    color: #2e64a1;
+    font-weight: 400;
+}
+
+.informacion {
+    width: 70%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.contacto {
+    width: 30%;
+}
+
+.contacto .correo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+    /*<-etiqueta importante para que no esten en la misma linea*/
+}
+
+.contacto2 {
+    background-color: #0b0361;
+    padding: 16px;
+}
+
+.contacto2 .telefono {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+    /*<-etiqueta importante para que no esten en la misma linea*/
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacion p {
+    font-size: 25px;
+}
+
+/*main*/
+
+/*footer*/
+footer {
+    background-color: whitesmoke;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    /*5px = 3rem 0*/
+    margin-top: 20px;
+}
+
+/*footer*/
+
+/*Estyle Remeras*/
+.info p {
+    font-size: 25px;
+    /*0.7rem*/
+}
+
+.remera {
+    background-color: #2e64a1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.remeras {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remera img {
+    border-radius: 40%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.remera h5,
+.remera h6,
+.remera p {
+    margin: 0;
+    font-weight: normal;
+    color: #333;
+}
+
+.remera p {
+    font-style: italic;
+    font: 200;
+    color: whitesmoke;
+}
+
+/*Estyle Remeras*/
+
+/*Estyle pantalones*/
+.pantalones {
+    background-color: #2e64a1;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    /*espacio entre la imagen y letra*/
+    align-items: center;
+    width: 50%;
+}
+
+.pantalones .info h4 {
+    color: whitesmoke;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 10px;
+}
+
+.pantalones .info p {
+    font-size: 20px;
+    line-height: 19px;
+}
+
+.pantalones img {
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+
+.pantalones:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/*Estyle pantalones*/
